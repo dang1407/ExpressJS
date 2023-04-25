@@ -1,0 +1,1 @@
+-- Phần layouts là thành phần chung
