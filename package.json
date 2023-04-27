@@ -7,7 +7,8 @@
     "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch src/resources/scss/ src/public/css/",
-    "beautiful": "lint-staged"
+    "beautiful": "lint-staged",
+    "postinstall": "husky install"
   },
   "repository": {
     "type": "git",
