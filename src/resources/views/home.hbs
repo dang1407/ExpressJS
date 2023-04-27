@@ -1,1 +1,11 @@
-<h1>Example App: Home</h1>
+<div class="form-container">
+  <form class="form-box" action="/vaxin" method="post">
+    <label for="hoten">Họ và tên: </label>
+    <input type="text" name="hoten" id="hoten" />
+    <label for="mssv">MSSV: </label>
+    <input type="number" name="mssv" id="mssv" />
+    <label for="somuitiem">Số mũi vaxin Covid đã tiêm: </label>
+    <input type="number" min="0" max="5" name="somuitiem" id="somuitiem" />
+    <button type="submit">Submit</button>
+  </form>
+</div>
