@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch src/resources/scss/ src/public/css/",
     "beautiful": "lint-staged",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -34,12 +34,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm lint-staged"
     }
   },
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
+    "mongoose": "^7.0.5",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
     "qrcode": "^1.5.3",
